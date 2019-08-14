@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>The Best Similes, Metaphors and Punchlines in Hip Hop and Rap | GlennRaps</title>
+  <meta name="description" content="The Best Similes, Metaphors and Punchlines in Hip Hop and Rap">
+  <link rel="stylesheet" type="text/css" href="../../style.css" media="screen" />
+</head>
+
+<body style="background-image: url(background.png);">
+<div id="container">
+<section>
+  <h1>The Best Similes, Metaphors and Punchlines in Hip Hop and Rap</h1>
+</section>
+</div>
+
+<script>
+  var urls = [  '/raps/hardcore-like-peaches-and-plums'
+                , '/raps/pissed-off-like-frat-house-balconies'
+                , '/raps/within-arms-reach-like-hands'
+            ],
+      currentPath = window.location.pathname,
+      currentIndex = urls.findIndex(function(url){
+          return currentPath == url;
+      });
+
+  if(currentIndex < urls.length - 1){
+      currentIndex++;
+  } else {
+      currentIndex = 0;
+  }
+
+  setTimeout(function(){
+      window.location.pathname = urls[currentIndex];
+  }, 0);
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9529738-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-9529738-1');
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</body>
+</html>
