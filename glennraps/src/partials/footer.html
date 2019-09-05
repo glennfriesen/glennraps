@@ -1,0 +1,23 @@
+<footer>
+  <div>
+    &copy; GlennRaps | By <a href="https://www.quora.com/profile/Glenn-Friesen">Glenn</a>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(function() {
+      var urls = ['exhuasted-like-smog.html', 'information-like-batallions.html', 'unheard-of-like-coulda-woulda-shoulda.html', 'hardcore-like-peaches-and-plums.html', 'my-game-is-untouchable-like-wildlife-preserves.html', 'within-arms-reach-like-hands.html', 'pissed-off-like-frat-house-balconies.html'];
+      var uu = urls[Math.floor(Math.random() * urls.length)];
+      $('a[href="#"]').prop('href', uu);
+    });
+  </script>
+
+</footer>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9529738-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-9529738-1');
+</script>
